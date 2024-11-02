@@ -1,0 +1,11 @@
+/home/dhmnztr/programowanie/api_server/target/debug/deps/libchacha20-652bfe913fdc597d.rmeta: /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/lib.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/backends.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/legacy.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/xchacha.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/backends/soft.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/backends/avx2.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/backends/sse2.rs
+
+/home/dhmnztr/programowanie/api_server/target/debug/deps/chacha20-652bfe913fdc597d.d: /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/lib.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/backends.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/legacy.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/xchacha.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/backends/soft.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/backends/avx2.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/backends/sse2.rs
+
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/lib.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/backends.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/legacy.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/xchacha.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/backends/soft.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/backends/avx2.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/chacha20-0.9.1/src/backends/sse2.rs:

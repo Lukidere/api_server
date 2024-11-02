@@ -1,0 +1,12 @@
+/home/dhmnztr/programowanie/api_server/target/debug/deps/libuuid-fbeef1180bb7c378.rmeta: /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/lib.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/builder.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/error.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/parser.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/fmt.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/timestamp.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/external.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/macros.rs
+
+/home/dhmnztr/programowanie/api_server/target/debug/deps/uuid-fbeef1180bb7c378.d: /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/lib.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/builder.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/error.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/parser.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/fmt.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/timestamp.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/external.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/macros.rs
+
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/lib.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/builder.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/error.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/parser.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/fmt.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/timestamp.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/external.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-6f17d22bba15001f/uuid-1.11.0/src/macros.rs:
