@@ -1,17 +1,14 @@
 use crate::Buf;
 use aead::{Aead, AeadCore, AeadMut, KeyInit, OsRng};
-use chacha20poly1305::{ChaCha20Poly1305, ChaChaPoly1305, Key, Nonce};
+use argon2::Argon2;
+use argon2::PasswordHash;
+use argon2::password_hash::SaltString;
+use argon2::{self,PasswordHasher,PasswordVerifier};
 use rand::distributions::Alphanumeric;
-use rand::prelude::*;
 use rand::Rng;
-use std::error::Error;
-use std::io;
-use std::sync::Arc;
 use tokio::io::AsyncReadExt;
 use tokio::io::AsyncWriteExt;
-use tokio::net::TcpSocket;
 use tokio::net::TcpStream;
-use tokio::sync::Mutex;
 pub struct api_key {
     pub key: String,
     pub data: String,
@@ -25,9 +22,7 @@ pub struct Client {
 
 #[derive(Clone)]
 pub struct Pass {
-    pub cipher: Vec<u8>,
-    pub key: Vec<u8>,
-    pub nonce: Vec<u8>,
+    pub hash:String,
 }
 
 impl api_key {
@@ -66,23 +61,22 @@ impl api_key {
 
 impl Pass {
     pub fn new(plain: String) -> Pass {
-        let key = ChaCha20Poly1305::generate_key(OsRng);
-        let nonce = ChaCha20Poly1305::generate_nonce(OsRng);
-        let cipher = ChaCha20Poly1305::new(&key);
-        let haslo = cipher.encrypt(&nonce, plain.as_bytes()).unwrap();
-        Pass {
-            cipher: haslo,
-            key: key.to_vec(),
-            nonce: nonce.to_vec(),
-        }
+        let salt = SaltString::generate(&mut OsRng);
+        let argon2 = Argon2::default();
+        let hash = argon2.hash_password(plain.as_bytes(),&salt)
+            .expect("hashing fail")
+            .to_string();
+        Pass {hash}
+
     }
-    pub fn read(&mut self) -> Result<String, Box<dyn Error>> {
-        let key: Key = Key::from_slice(self.key.as_slice()).to_owned();
-        let nonce: Nonce = Nonce::from_slice(&self.nonce.as_slice()).to_owned();
-        let cipher = ChaCha20Poly1305::new(&key);
-        let decrypted = cipher.decrypt(&nonce, self.cipher.as_slice()).unwrap();
-        self.nonce = ChaCha20Poly1305::generate_nonce(OsRng).to_vec();
-        Ok(String::from_utf8(decrypted).unwrap())
+    pub fn verify(&self,plain:&str) -> bool {
+        let parsed = PasswordHash::new(&self.hash);
+        if parsed.is_err() {
+            return false
+        }
+        let parsed = parsed.unwrap();
+        Argon2::default().verify_password(plain.as_bytes(),&parsed)
+        .is_ok()
     }
 }
 pub trait StringExt {

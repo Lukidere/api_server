@@ -183,9 +183,15 @@ pub async fn insert_into_base(
 }
 
 pub async fn get_userid(user: String, connection: Arc<Mutex<PooledConn>>) -> usize {
-    let query = format!("SELECT user_id FROM Users WHERE User = '{}'", user);
-    match connection.lock().await.query::<String, String>(query) {
-        Ok(val) => val.iter().next().unwrap().parse::<usize>().unwrap(),
-        Err(_) => 0,
-    }
+    let mut conn = connection.lock().await;
+
+    let row: Option<usize> = conn
+        .exec_first(
+            "SELECT user_id FROM Users WHERE User = :user LIMIT 1",
+            params! { "user" => user },
+        )
+        .ok()
+        .flatten();
+
+    row.unwrap_or(0)
 }

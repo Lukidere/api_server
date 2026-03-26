@@ -1,0 +1,12 @@
+/home/dhmnztr/cybersec/programowanie/rust/api_server/target/debug/deps/uuid-da4332c107056742.d: /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/lib.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/builder.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/error.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/parser.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/fmt.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/timestamp.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/external.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/macros.rs
+
+/home/dhmnztr/cybersec/programowanie/rust/api_server/target/debug/deps/libuuid-da4332c107056742.rmeta: /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/lib.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/builder.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/error.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/parser.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/fmt.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/timestamp.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/external.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/macros.rs
+
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/lib.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/builder.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/error.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/parser.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/fmt.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/timestamp.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/external.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/uuid-1.11.0/src/macros.rs:

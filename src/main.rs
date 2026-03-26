@@ -69,18 +69,14 @@ async fn main() {
             .lock()
             .await
             .query_map(
-                "SELECT User,Password,key_cipher,nonce FROM Users",
-                |(username, password_blob, key_cipher_blob, nonce_blob): (
+                "SELECT User,Password FROM Users",
+                |(username, hash): (
                     String,
-                    Vec<u8>,
-                    Vec<u8>,
-                    Vec<u8>,
+                    String,
                 )| Client {
                     username,
                     password: Pass {
-                        cipher: password_blob,
-                        key: key_cipher_blob,
-                        nonce: nonce_blob,
+                        hash
                     },
                 },
             )

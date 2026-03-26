@@ -1,0 +1,12 @@
+/home/dhmnztr/cybersec/programowanie/rust/api_server/target/debug/deps/httparse-87e45f73aba1a11c.d: /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/lib.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/iter.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/macros.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/mod.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/swar.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/sse42.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/avx2.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/runtime.rs
+
+/home/dhmnztr/cybersec/programowanie/rust/api_server/target/debug/deps/libhttparse-87e45f73aba1a11c.rmeta: /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/lib.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/iter.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/macros.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/mod.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/swar.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/sse42.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/avx2.rs /home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/runtime.rs
+
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/lib.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/iter.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/macros.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/mod.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/swar.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/sse42.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/avx2.rs:
+/home/dhmnztr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/httparse-1.9.5/src/simd/runtime.rs:
